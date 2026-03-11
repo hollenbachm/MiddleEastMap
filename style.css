@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#map {
+  height: 600px;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+select {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+/* Legend container */
+.info.legend {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Legend items */
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.9;
+}
+
+/* Ensure each actor label clears the float */
+.info.legend br {
+  clear: both;
+}
+
+/* Event marker dot used by Leaflet marker icons */
+.event-dot {
+  background: transparent;
+  border: none;
+}
